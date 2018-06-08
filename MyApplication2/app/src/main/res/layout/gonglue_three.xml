@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textSize="25dp"
+            android:text="攻略一之餐馆推荐："/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/neckName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="1.西大食堂最受欢迎之南苑："
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="位于西校园南苑路，是学生宿舍的中心地带。该餐厅共有两层楼，一楼是大伙食堂，总就餐面积约1000平方米，大概可以容纳800多人就餐。它的主要菜肴有风味小炒和凉拌菜。此外，食堂一楼还设有金龙卡房，可方便学生充值饭卡。食堂二楼是自助餐厅，内设有空调，环境优雅舒适。它的主要经营有：小炒、粉面粥、大众美食、滋补炖品、风味小吃、甜品面点等等。其骨头汤、鸡汤、紫菜蛋汤一直深受同学们喜爱。"
+        />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/nanyuan"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="2.西大食堂最受欢迎之西苑："/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:text="是西大规模较大，设施较为完善的餐厅，也是西校园吃饭的最高消费场所，可以与正规的酒店媲美。该餐厅的总面积约有2000平方米，就餐大厅的面积为1000多平方米，环境优雅舒适，其中设有7个高雅别致的包厢。餐厅采用半自助的食街经营方式，为就餐者提供包括粤菜、湘菜、川菜、桂北风味、风味小吃、各式粉面、西餐面点、冷饮果汁等近400个饮食品种。其老友面、牛奶燕麦粥深受大家喜爱。因此，西苑是朋友同学聚会、交友、休闲的理想场所。"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:background="@mipmap/xiyuan"/>
+
+
+</LinearLayout>

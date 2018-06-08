@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:text="攻略一之西大简介："/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:background="@mipmap/xiaohui"
+            />
+        <TextView
+            android:id="@+id/neckName"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="25dp"
+            android:text="广西大学，简称“西大”，是一所教育部与广西壮族自治区人民政府“部省合建”高校。"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:text="       广西大学坐落于广西壮族自治区首府南宁市，首批国家“双一流”世界一流学科、“211工程”重点建设高校，入选中西部高校综合实力提升工程、卓越工程师教育培养计划、卓越法律人才教育培养计划、卓越农林人才教育培养计划、海外高层次人才引进计划，广西一流学科建设高校, 为中西部“一省一校”国家重点建设大学联盟成员，是一所综合性全国重点大学。
+广西大学创办于1928年，首开广西高等教育之先河。首任校长是有着教育界“北蔡南马”之称的“一代宗师”，我国著名教育家马君武博士。1939年在桂林更名于国立广西大学，竺可桢、李四光、陈望道、陈寅恪、王力等一批名家曾在这里任教，1952年，毛泽东亲笔为广西大学题写了校名，同年，广西大学农学院独立建制，成立广西农学院。1953年，广西大学在全国高校院系调整中被停办，师生以及设备和图书资料被调整到中南和华南地区的19所大学，1958年，国务院批准广西大学在南宁恢复重建，1997年，原广西大学与广西农业大学合并，组建新的广西大学。
+截至2017年10月，广西大学占地面积4700余亩，校舍总建筑面积170多万平方米；教学科研设备总值16.23亿元，下设27个学院, 开办98个本科专业，52个学科硕士点，17个博士点，10个博士后科研流动站，工程学、材料科学、农业科学进入ESI学科全球前1%行列；有在职在编教职工3662人、在校学生8万余人。"/>
+
+</LinearLayout>

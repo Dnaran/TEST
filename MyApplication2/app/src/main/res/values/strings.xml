@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="viewpager_four_button">马上开始</string>
+    <string name="main_title">电影</string>
+    <string name="main_item_my">首页</string>
+    <string name="main_item_news">我的</string>
+    <string name="main_item_worker">攻略</string>
+</resources>
