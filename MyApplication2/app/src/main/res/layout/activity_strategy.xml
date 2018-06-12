@@ -5,11 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.administrator.myapplication.Strategy_Activity">
-
+    tools:context="com.example.administrator.myapplication.activity.Strategy_Activity">
 
     <LinearLayout
-        android:background="@color/bg"
+        android:background="@color/blue"
         android:gravity="center"
         android:orientation="vertical"
         android:layout_width="match_parent"
@@ -17,7 +16,7 @@
        <TextView
            android:text="攻略详情"
            android:textColor="@color/white"
-           android:textSize="30dp"
+           android:textSize="20dp"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content" />
     </LinearLayout>
@@ -34,57 +33,63 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
-                android:background="@mipmap/jingdian" />
+                android:background="@drawable/milk_tea" />
 
             <TextView
                 android:id="@+id/name"
+                android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/login_b"
-                android:textSize="30dp"
-                android:layout_marginTop="10dp"
-                android:text="热门景点"/>
+                android:textSize="20dp"
+                android:text="1.青秀山西门"/>
             <TextView
                 android:id="@+id/neckName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25dp"
-                android:text="西大著名的景点包括荷花池、鲜花瀑布，还有著名建筑综合实验大楼、图书馆、西大历史最悠久的现代建筑--大礼堂等。还有碧云湖、相思湖等好几个小湖，景色非常不错，碧水蓝天，说是一步一景也毫不夸张。"/>
-
+                android:textSize="15dp"
+                android:text="总所周知，南宁黑珍珠牛乳县火起来的是阿嬷！大家都说，喝“阿嬷”排队3小时，喝茶2分钟！一喝再喝的，基本都是真爱！
+              "/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/amoshouzuo"
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="25dp"
-                android:text="1.大礼堂"/>
+                android:textSize="20dp"
+                android:text="2.广西十二世居民族雕塑群"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="随食常鲜一直以新鲜健康，口感清新的茶饮为主打，牛乳奶香味很足，珍珠口感Q弹。"/>
+
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@mipmap/dalitang"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/suishichangxian"
                 />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:textSize="25dp"
-                android:text="2.体育馆"/>
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@mipmap/tiyuguan"
-                />
-
+                android:textSize="20dp"
+                android:text="3.壮锦广场"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:textSize="25dp"
-                android:text="3.荷花池"/>
+                android:textSize="15dp"
+                android:text="月露禅饮的黑珍珠牛乳看起来最佛系，出品前会把珍珠外面那一层黑糖洗掉，然后黑糖另外熬煮。"/>
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:background="@mipmap/hehuachi"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/yueluchanyin"
                 />
         </LinearLayout>
     </ScrollView>

@@ -12,22 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="activity.PhoneScreenMatchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SlideActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".LogoActivity" />
-        <activity android:name=".ListViewStingActivity" />
-        <activity android:name=".Slider_Activity" />
-        <activity android:name=".Register_Activity" />
-        <activity android:name=".Collect_Ativity" />
-        <activity android:name=".Strategy_Activity" />
-        <activity android:name=".Scene_Activity"></activity>
+        <activity android:name="activity.MainActivity">
+            <intent-filter>
+                <action android:name="com.example.MainActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="activity.SlideActivity" />
+        <activity android:name="activity.LogoActivity" />
+        <activity android:name="activity.Slider_Activity" />
+        <activity android:name="activity.Strategy_Activity" />
+        <activity android:name="activity.Scene_Activity"></activity>
     </application>
 
 </manifest>

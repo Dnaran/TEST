@@ -126,10 +126,4 @@ public class SlideActivity extends AppCompatActivity {
     /**
      * 点击事件
      */
-    public void viewPagerFourOnClick(View view) {
-        Intent intent = new Intent(SlideActivity.this, LoginActivity.class);
-        startActivity(intent);
-
-        finish();
-    }
 }

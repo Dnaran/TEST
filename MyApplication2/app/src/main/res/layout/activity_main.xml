@@ -40,8 +40,8 @@
 
                 <ImageView
                     android:id="@+id/first_image"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@mipmap/index_a" />
 
@@ -51,7 +51,9 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/main_item_my"
-                    android:textColor="#7597B3" />
+                    android:textColor="#7597B3"
+                    android:textSize="15dp"/>
+
             </LinearLayout>
         </RelativeLayout>
 
@@ -69,8 +71,8 @@
 
                 <ImageView
                     android:id="@+id/second_image"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
                     android:layout_gravity="center_horizontal"
                     android:src="@mipmap/gonglue_a" />
 
@@ -80,38 +82,11 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:text="@string/main_item_worker"
-                    android:textColor="#7597B3" />
+                    android:textColor="#7597B3"
+                    android:textSize="15dp"/>
             </LinearLayout>
         </RelativeLayout>
 
-        <RelativeLayout
-            android:id="@+id/threeRelativeLayout"
-            android:layout_width="0dp"
-            android:layout_height="50dp"
-            android:layout_weight="1">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:id="@+id/fourth_image"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:src="@mipmap/person_a" />
-
-                <TextView
-                    android:id="@+id/fourth_text"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:text="@string/main_item_news"
-                    android:textColor="#7597B3" />
-            </LinearLayout>
-        </RelativeLayout>
     </LinearLayout>
 </LinearLayout>
 

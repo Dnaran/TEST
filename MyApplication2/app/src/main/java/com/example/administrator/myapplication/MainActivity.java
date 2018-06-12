@@ -59,11 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         oneRelativeLayout = (RelativeLayout)findViewById(R.id.oneRelativeLayout);
         twoRelativeLayout = (RelativeLayout)findViewById(R.id.twoRelativeLayout);
-        threeRelativeLayout = (RelativeLayout)findViewById(R.id.threeRelativeLayout);
 
         oneRelativeLayout.setOnClickListener((View.OnClickListener) this);
         twoRelativeLayout.setOnClickListener((View.OnClickListener) this);
-        threeRelativeLayout.setOnClickListener((View.OnClickListener) this);
 
         mainLeftImageView.setOnClickListener(this);
         mainRightImageView.setOnClickListener(this);
@@ -85,9 +83,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 setChioceItem(1);
                 break;
 
-            case R.id.threeRelativeLayout:
-                setChioceItem(2);
-                break;
             case R.id.mainLeftImageView:
                 //调用打电话功能
                 //制作Dialog弹框
@@ -157,17 +152,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     fragmentTransaction.show(oneFragment);
                 }
                 break;
-
-            case 2:
-                threeRelativeLayout.setBackgroundColor(black);
-
-                if (threeFragment == null) {
-                    threeFragment = new ThreeFragment();
-                    fragmentTransaction.add(R.id.frameLayout, threeFragment);
-                } else {
-                    fragmentTransaction.show(threeFragment);
-                }
-                break;
         }
         fragmentTransaction.commit();
     }
@@ -178,7 +162,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void clearChioce() {
         oneRelativeLayout.setBackgroundColor(white);
         twoRelativeLayout.setBackgroundColor(white);
-        threeRelativeLayout.setBackgroundColor(white);
     }
 
 
@@ -191,10 +174,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         if (twoFragment != null) {
             fragmentTransaction.hide(twoFragment);
-        }
-
-        if (threeFragment != null) {
-            fragmentTransaction.hide(threeFragment);
         }
     }
     //获取回退事件
@@ -216,11 +195,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         return false;
     }
 
-    public void login(View view) {
-        Intent intent = new Intent(this,LoginActivity.class);
-        startActivity(intent);
-
-        finish();
-    }
 }
 
