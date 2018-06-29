@@ -1,10 +1,10 @@
 package com.example.administrator.myapplication;
 
 /**
- * Created by Administrator on 2017/8/31.
+ * Created by Administrator on 2018/6/10.
  */
 
-public class Strategy {
+public class Hot_scene {
 
     public String name;
     public String url;

@@ -12,25 +12,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="activity.PhoneScreenMatchActivity">
+        <activity android:name="com.example.administrator.myapplication.activity.PhoneScreenMatchActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="activity.MainActivity">
+        <activity android:name="com.example.administrator.myapplication.activity.MainActivity">
             <intent-filter>
                 <action android:name="com.example.MainActivity" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="activity.SlideActivity" />
-        <activity android:name="activity.LogoActivity" />
-        <activity android:name="activity.Slider_Activity" />
-        <activity android:name="activity.Strategy_Activity" />
-        <activity android:name="activity.Scene_Activity"></activity>
+        <activity android:name="com.example.administrator.myapplication.activity.SlideActivity" />
+        <activity android:name="com.example.administrator.myapplication.activity.LogoActivity" />
+        <activity android:name="com.example.administrator.myapplication.activity.Slider_Activity" />
+        <activity android:name="com.example.administrator.myapplication.activity.Strategy_Activity" />
+        <activity android:name="com.example.administrator.myapplication.activity.Scene_Activity" />
+        <activity android:name="com.example.administrator.myapplication.activity.SearchResultActivity"></activity>
+        <activity android:name="com.example.administrator.myapplication.activity.SearchActivity"></activity>
     </application>
 
 </manifest>

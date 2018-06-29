@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">旅游APP</string>
     <string name="viewpager_four_button">马上开始</string>
     <string name="main_title">电影</string>
     <string name="main_item_my">首页</string>

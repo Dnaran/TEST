@@ -3,14 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="activity.Scene_Activity">
+    tools:context="com.example.administrator.myapplication.activity.Scene_Activity">
 
     <LinearLayout
         android:gravity="center"
         android:background="@color/blue"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/linearLayout2">
+        android:layout_height="50dp">
         <TextView
             android:layout_gravity="center"
             android:text="景点详情"
@@ -65,7 +64,7 @@
         android:layout_alignParentStart="true">
 
         <TextView
-            android:id="@+id/title"
+            android:id="@+id/scene_detail_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -75,12 +74,13 @@
             android:layout_centerHorizontal="true" />
 
         <TextView
+            android:id="@+id/scene_detail_desc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="西大图书馆是西大最有标志性的建筑之一，外形宏伟壮观，历史悠久，不但藏书丰富，还曾获得全国建筑界的最高奖项——鲁班奖。"
             android:textSize="15dp"
             android:layout_marginTop="10dp"
-            android:layout_below="@+id/title"
+            android:layout_below="@+id/scene_detail_name"
             android:layout_alignParentStart="true" />
 
     </RelativeLayout>
